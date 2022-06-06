@@ -1,0 +1,17 @@
+.popup-container {
+  border-width: 5px;
+  border-style: solid;
+
+  max-height: 10px;
+  .popup-handle {
+    position: relative;
+    z-index: 10;
+  }
+  .popup-body {
+    position: relative;
+    z-index: 1;
+  }
+}
+.handle-img {
+  height: 20px;
+}
